@@ -1,0 +1,51 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+ .adventages,
+ .booking {
+        margin-right: 30px;
+        margin-left: 30px;      
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1122px){
+.adventages {
+    flex-direction: column;
+	.adventages_topic {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-right: 30px;
+        margin-left: 30px;  
+        .top_topic {
+		
+        	display: flex;
+			flex-basis: 60%;
+		
+        }
+           
+    }
+	}
+    }
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+}
